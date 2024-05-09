@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #000000;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+hr {
+  color: rgb(245, 238, 229);
+  border-bottom: 3px solid;
+  width: 100%;
+  margin: 10px;
+}

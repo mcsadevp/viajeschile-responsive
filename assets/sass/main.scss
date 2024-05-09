@@ -1,0 +1,21 @@
+//main.scss #Manifest File
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+//abstracts
+//Vendors
+//Base
+@import "./base/reset";
+@import "./base/typography";
+
+
+//Layout
+@import "./layout/testimonies";
+
+
+
+//Components
+@import "./components/carousel";
+@import "./components/cardimg";
+
+
+//Pages
+//Theme

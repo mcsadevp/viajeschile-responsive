@@ -1,0 +1,52 @@
+.testimonies__container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+.testimonies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+}
+@media (min-width: 768px) {
+  .testimonies {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+  }
+}
+
+.testimonies__title {
+  text-align: center;
+  color: rgb(252, 246, 246);
+  font-weight: 400;
+}
+.testimony__text {
+  color: rgb(252, 246, 246);
+  text-align: center;
+}
+.testimony__img {
+  height: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  border-style: solid;
+}
+.mariela {
+  background-image: url(../img/testimonio1.jpg);
+}
+.christian {
+  background-image: url(../img/testimonio2.jpg);
+}
+.fernanda {
+  background-image: url(../img/testimonio3.jpg);
+}
+.testimony__title {
+  color: rgb(252, 246, 246);
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.col-md-4{
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat ;
+}
+
+.card1{
+    background-image: url(../img/card1.jpg);
+}
+
+.card2{
+    background-image: url(../img/card2.jpg);
+}
+
+.card3{
+    background-image: url(../img/card3.jpg);
+}
+
+.card4{
+    background-image: url(../img/card4.jpg);
+}
+
+@media (max-width: 768px) {
+    .col-md-4 {
+        background-size: contain;
+        
+        padding: 30%;
+    }
+}
